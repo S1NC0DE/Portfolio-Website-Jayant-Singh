@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bitter:ital,wght@1,300&family=Cinzel:wght@500&family=Lobster&family=M+PLUS+1+Code&family=Pacifico&family=Palette+Mosaic&family=Rubik+Glitch&family=Source+Sans+3:wght@300&family=Ubuntu+Mono:wght@700&display=swap");
+
+body {
+  font-family: "M PLUS 1 Code", sans-serif;
+  font-weight: 900;
+  margin: 0;
+}
+
+section {
+  background: #143f6b;
+}
+
+.hero {
+  background: #143f6b;
+  height: 100vh;
+  color: #000;
+  font-size: 40px;
+}
+
+footer {
+  background: #143f6b;
+  color: #f55353;
+  text-align: center;
+  padding: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+li {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 150px;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+h1:hover {
+  color: #f55353;
+  transition: 0.5s;
+}
+
+h2 {
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.button {
+  width: 200px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: #f55353;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #e4efe7;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #f55353;
+  color: #f55353;
+}
+
+.socials {
+  padding-bottom: 200px;
+  line-height: 2;
+}
+
+.logo {
+  height: 80px;
+  margin: 30px;
+}
+.social {
+  margin: 20px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.headshot {
+  width: 500px;
+  border-radius: 150px;
+  margin-left: 80px;
+  height: 400px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px #fff;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #f55353;
+}
+
+a {
+  text-decoration: none;
+  color: #f55353;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger:focus {
+  outline: 0;
+}
+
+.mailto {
+  font-size: 30px;
+}
+
+.mailto:hover {
+  color: #fff;
+}
+
+.menu-icon {
+  font-size: 90px;
+}
+
+.mail-icon {
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: #f55353;
+    margin: 20px;
+    align-self: flex-end;
+  }
+
+  ul {
+    display: none;
+    background-color: #143f6b;
+    margin: 0ppx;
+    font-size: 40px;
+    letter-spacing: 5px;
+    line-height: 2;
+    font-weight: bold;
+  }
+
+  ul.show {
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #143f6b;
+  }
+
+  .logo {
+    display: none;
+  }
+}
